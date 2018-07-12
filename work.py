@@ -44,27 +44,27 @@ class Work(QMainWindow):
         生成txt文件
         """
         txt1 = '''
-        //num号
-        "BinDB".B_In[num].Sensor_F := In0;
-        "BinDB".B_In[num].Lock_B := In1;
-        "BinDB".B_In[num].Cage_D := In2;
-        "BinDB".B_In[num].Cage_F := In3;
-        "BinDB".B_In[num].Select :=In4;
-        "BinDB".B_In[num].Switch :=In5;
-        "BinDB".B_In[num].Estop := In6;
-        "BinDB".B_In[num].Spare := In7;
-        '''
+//num号
+"BinDB".B_In[num].Sensor_F := In0;
+"BinDB".B_In[num].Lock_B := In1;
+"BinDB".B_In[num].Cage_D := In2;
+"BinDB".B_In[num].Cage_F := In3;
+"BinDB".B_In[num].Select :=In4;
+"BinDB".B_In[num].Switch :=In5;
+"BinDB".B_In[num].Estop := In6;
+"BinDB".B_In[num].Spare := In7;
+'''
         txt2 = '''
-        //num号
-        "BinDB".B_Out[num].Green := Ou0;
-        "BinDB".B_Out[num].Yellow :=Ou1;
-        "BinDB".B_Out[num].Red := Ou2;
-        "BinDB".B_Out[num].Alarm := Ou3;
-        "BinDB".B_Out[num].Push :=Ou4;
-        "BinDB".B_Out[num].Pull := Ou5;
-        "BinDB".B_Out[num].SpareA := Ou6;
-        "BinDB".B_Out[num].SpareB := Ou7;
-        '''
+//num号
+"BinDB".B_Out[num].Green := Ou0;
+"BinDB".B_Out[num].Yellow :=Ou1;
+"BinDB".B_Out[num].Red := Ou2;
+"BinDB".B_Out[num].Alarm := Ou3;
+"BinDB".B_Out[num].Push :=Ou4;
+"BinDB".B_Out[num].Pull := Ou5;
+"BinDB".B_Out[num].SpareA := Ou6;
+"BinDB".B_Out[num].SpareB := Ou7;
+'''
         # 判断是否为IN，否为OUT
         is_in = self.is_in_selected()
         # 起始值
